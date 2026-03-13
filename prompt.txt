@@ -1,0 +1,13 @@
+I want to build a system where update to one document results in updating relevant sections in related documents.
+First step is to read all the documents under ./documents/ dir and keep them in memory on startup. Allow the user to select a document and edit its contents. Based on these changes  modify the contents in other documents in memory and save it under under ./documents/ dir. 
+
+E.g. lets say there are 5 files - requirements.txt, design.txt, deployment.txt, api-document.txt and ui-document.txt. If the user updates the requirements.txt file, then search for sections in design, deployment, api and ui files are make appropriate changes. Its not necessary that all documents need to be updated. Depending on the change in the source file, make relevant changes in relevant files
+
+Move the original document under ./versions/ dir and rename the document by appending the timestamp. E.g. if a deployment.txt file is moved from ./documents/  dir to ./versions/ dir, it should be renamed as deployment-202603100343.txt. 
+
+Backend apis 
+    - POST /update-doc # this is the document that the user updates 
+    - GET /documents # this gets a list of all the documents under the ./documents folder
+    - GET /documents/{filename}  # this gets the contents of the file under ./documents folder
+
+For the front-end, display a list of all files on the LHS by calling the /documents api. When user selects a file on the LHS, display the contents of the file on the RHS in a text editor. Show a save and cancel button under the file editor. Save should call the /update-doc api. In the same api update other files wherever applicable by calling the LLM. Generate all frontend code and place it under ./frontend dir. Generate all backend code and place it under ./backend dir. 

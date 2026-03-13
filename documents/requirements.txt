@@ -1,0 +1,4 @@
+System requirements:
+- The system shall be web-based.
+- The system must provide a fast response time (< 1s).
+- The system must run on modern browsers.

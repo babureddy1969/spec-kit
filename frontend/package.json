@@ -1,0 +1,19 @@
+{
+  "name": "specit-document-updater-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for SpecIt Document Sync using vanilla JS",
+  "main": "app.js",
+  "scripts": {
+    "start": "npx serve -l 8080"
+  },
+  "keywords": [
+    "specit",
+    "document",
+    "sync"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}

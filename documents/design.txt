@@ -1,0 +1,4 @@
+Design Specifications:
+- Backend: Standard monolith, REST API.
+- Frontend: Single Page Application style using plain vanilla Javascript.
+- Communication: HTTP over TCP/IP.

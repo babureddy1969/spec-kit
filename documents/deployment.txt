@@ -1,0 +1,4 @@
+Deployment Guide:
+- The application is deployed to a standard Ubuntu Linux VM in the cloud.
+- Open port 80 and 443 for regular web traffic.
+- Use a reverse proxy like Nginx to forward requests to the app server.

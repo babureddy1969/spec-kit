@@ -1,0 +1,4 @@
+API Documentation:
+- General: All APIs map to typical CRUD operations over HTTP.
+- Base URL: /api/v1
+- Formats: All data exchanged in JSON format.

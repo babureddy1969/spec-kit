@@ -1,0 +1,4 @@
+UI Specification:
+- The UI contains a sidebar for navigation and a main content area.
+- Colors: Dark mode by default, using soft grays and blues.
+- Typography: primary font is sans-serif.
