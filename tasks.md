@@ -1,0 +1,21 @@
+# Document Updater Tasks
+
+- [x] Analyze the core requirements given by user.
+- [x] Draft architectural approach and implementation plan.
+- [x] Initialize project directories (`/documents`, `/versions`, `/backend`, `/frontend`, `/.specify`).
+- [x] Create seed dummy documents for testing.
+- [x] Backend Task: Set up Python virtual environment and dependencies.
+- [x] Backend Task: Implement `GET /documents` API endpoint.
+- [x] Backend Task: Implement `GET /documents/{filename}` API endpoint.
+- [x] Backend Task: Implement logic to move old document version to `/versions/` with timestamp.
+- [x] Backend Task: Implement `google-genai` integration to assess collateral documentation updates based on new file content.
+- [x] Backend Task: Expose `POST /update-doc` syncing the entire update/LLM evaluate/re-save pipeline.
+- [x] Frontend Task: Create responsive LHS/RHS HTML layout.
+- [x] Frontend Task: Style interface utilizing modern dark theme and CSS grid/flexbox capabilities.
+- [x] Frontend Task: Write JS state machine to load initial doc list.
+- [x] Frontend Task: Write JS functions to handle viewing individual document content via API response.
+- [x] Frontend Task: Implement save button logic calling the POST API and surfacing visual loaders / success toasts.
+- [/] Verification Task: Launch Uvicorn dev server.
+- [/] Verification Task: Launch Node/HTTP static server.
+- [ ] Verification Task: Run full manual end-to-end test sequence simulating an edit.
+- [x] Documentation Task: Generate `.specify/specs.md`, `.specify/plan.md`, `.specify/tasks.md` documents.
